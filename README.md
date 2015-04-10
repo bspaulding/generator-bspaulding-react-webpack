@@ -1,15 +1,23 @@
-# generator-bspaulding-react-webpack [![Build Status](https://secure.travis-ci.org/bspaulding/generator-bspaulding-react-webpack.png?branch=master)](https://travis-ci.org/bspaulding/generator-bspaulding-react-webpack)
+# generator-bspaulding-react-webpack
 
 > [Yeoman](http://yeoman.io) generator, scaffolds a react app using webpack to build.
 
 
 ## Getting Started
 
+Install yeoman:
+
 ```bash
-npm install -g yo generator-bspaulding-react-webpack
+npm install -g yo
 ```
 
-In your project directory:
+Install this generator:
+
+```bash
+npm install -g generator-bspaulding-react-webpack
+```
+
+Run this generator in your project directory:
 
 ```bash
 yo bspaulding-react-webpack

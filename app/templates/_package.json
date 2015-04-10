@@ -1,0 +1,10 @@
+{
+  "name": "<%= appnameSlug %>",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "build": "webpack --progress --colors -p src/main.jsx dist/bundle.js --module-bind 'js=jsx' --module-bind 'jsx=jsx'",
+    "watch": "webpack --progress --colors --watch src/main.jsx dist/bundle.js --module-bind 'js=jsx' --module-bind 'jsx=jsx'",
+    "serve": "webpack-dev-server --no-info --progress --colors --module-bind 'jsx=jsx' --content-base dist --hot --inline src/main.jsx"
+  }
+}

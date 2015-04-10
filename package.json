@@ -1,0 +1,31 @@
+{
+  "name": "generator-bspaulding-react-webpack",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "bspaulding/generator-bspaulding-react-webpack",
+  "author": {
+    "name": "Bradley Spaulding",
+    "email": "bradley.spaulding@motingo.com",
+    "url": "https://github.com/bspaulding"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "underscore.string": "^3.0.3",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
